@@ -1,0 +1,101 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  height: 100%;
+  justify-content: center;
+}
+
+/* GLOBAL TERMINA */
+/* MAPS */
+/* TEMINA MAPS */
+/* TITULOS */
+.titulo {
+  text-align: center;
+  justify-content: center;
+  padding: 3vh;
+  margin-top: 5vh;
+  font-family: "Times New Roman", Times, serif;
+}
+.titulo .tituloPrincipal {
+  font-size: 6vh;
+}
+
+/* FIN TITULOS */
+/* REQUERIMENTOS */
+.req {
+  align-items: center;
+  justify-content: center;
+}
+.req .reqContainer {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5vh;
+  margin: 10vh;
+  border: solid 2px black;
+  border-radius: 30px;
+}
+.req .reqTitulo {
+  text-align: center;
+}
+.req .reqUl {
+  list-style: disc;
+}
+
+/* REQUERIMENTOS */
+/* CARTAS */
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardContainer .carta {
+  width: 35vh;
+  margin: 3vh;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: whitesmoke;
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .cardContainer .carta {
+    width: 95%;
+  }
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__titulo {
+  font-size: 3vh;
+}
+
+.card__link {
+  margin-bottom: 30;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.carta:hover {
+  transform: translateY(-10px);
+}
+
+.card__link:hover {
+  color: #8caefa;
+}
+
+/* FIN CARTAS */
+/* CARTA INFORMATIVA */
+
+/*# sourceMappingURL=style.css.map */

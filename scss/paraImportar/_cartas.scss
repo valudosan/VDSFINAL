@@ -1,0 +1,45 @@
+/* CARTAS */
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .carta {
+    width: 35vh;
+    margin: 3vh;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: map-get($palette, $key: "success");
+    cursor: default;
+    transition: all 400ms ease;
+    text-align: center;
+    @media (min-width: 300px) and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
+.card__img {
+  width: 100%;
+}
+.card__titulo {
+  font-size: 3vh;
+}
+.card__link {
+  margin-bottom: 30;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+.carta:hover {
+  transform: translateY(-10px);
+}
+.card__link:hover {
+  color: map-get($palette, $key: "primary");
+}
+
+/* FIN CARTAS */
+
+/* CARTA INFORMATIVA */

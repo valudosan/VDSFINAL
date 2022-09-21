@@ -1,0 +1,33 @@
+/* TITULOS */
+.titulo {
+  text-align: center;
+  justify-content: center;
+  padding: 3vh;
+  margin-top: 5vh;
+  font-family: "Times New Roman", Times, serif;
+  .tituloPrincipal {
+    font-size: 6vh;
+  }
+}
+/* FIN TITULOS */
+
+/* REQUERIMENTOS */
+
+.req {
+  align-items: center;
+  justify-content: center;
+  .reqContainer {
+    font-family: "Times New Roman", Times, serif;
+    padding: 5vh;
+    margin: 10vh;
+    border: solid 2px black;
+    border-radius: 30px;
+  }
+  .reqTitulo {
+    text-align: center;
+  }
+  .reqUl {
+    list-style: disc;
+  }
+}
+/* REQUERIMENTOS */
